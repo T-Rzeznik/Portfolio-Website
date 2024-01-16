@@ -1,5 +1,3 @@
-
-
 body
 {
     
@@ -8,86 +6,28 @@ body
     background-color: 123978;
 }
 
-header
-{
+
+header{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-h1{
-    color: white;
-}
 
-#intro
+
+#summary
 {
-    height: 400px;
-    width: 100%;
-    background-color: rgb(38, 172, 212);
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-#intro-box
-{
-    height: 90%;
-    width: 95%;
-    background-position: center;
-    background-size: cover;
-    background-image: url(content/thanos.jpg);
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:white;
-}
-
-#gitHub
-{
-    height: 400px;
-    width: 100%;
-    background-color: ;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-}
-
-
-#logo
-{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(38, 172, 212);
-    height: 30%;
-    width: 30%;
-   border: 2px solid #73AD;
-   border-radius: 25px;
-}
-
-
-
-#guitars
-{
-    height: 400px;
+    height: 200px;
     width: 80%;
     background-color: rgb(38, 172, 212);
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+
 }
 
-#guitars-box
+#summary-box
 {
     height: 80%;
     width: 90%;
@@ -98,18 +38,16 @@ h1{
     flex-direction: column;
     background-position: center;
     background-size: cover;
-    background-image: url(content/gui.jpg);
     border: 2px solid #73AD;
    border-radius: 25px;
     
 }
 
 
-
-#project1
+#step1
 {
    
-    height: 400px;
+    height: 900px;
     width: 80%;
     background-color: rgb(38, 172, 212);
     margin: auto;
@@ -118,43 +56,26 @@ h1{
     align-items: center;
 }
 
-#project2
+#step1-box
 {
-   
-    height: 400px;
-    width: 80%;
-    background-color: rgb(38, 172, 212);
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#greetings-box{
     height: 80%;
     width: 90%;
-    background-color: black;
-
+    
     display: flex;
     justify-content: center;    
     align-items: center;
     flex-direction: column;
+    background-position: center;
+    background-size: cover;
     border: 2px solid #73AD;
    border-radius: 25px;
+    
 }
 
-h2{
-    color: white;
-}
-
-p{
-    color: white;
-}
-
-#contacts
+#step2
 {
    
-    height: 400px;
+    height: 900px;
     width: 80%;
     background-color: rgb(38, 172, 212);
     margin: auto;
@@ -164,20 +85,76 @@ p{
 }
 
 
-#contacts-box{
-    height: 50%;
-    width: 80%;
-    background-color: #171b45;
-
+#step2-box
+{
+    height: 80%;
+    width: 90%;
+    
     display: flex;
     justify-content: center;    
     align-items: center;
     flex-direction: column;
+    background-position: center;
+    background-size: cover;
     border: 2px solid #73AD;
    border-radius: 25px;
+    
 }
 
-.reach
+
+#step3
 {
-    margin-bottom: 0px;
+   
+    height: 900px;
+    width: 80%;
+    background-color: rgb(38, 172, 212);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#step3-box
+{
+    height: 80%;
+    width: 90%;
+    
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid #73AD;
+   border-radius: 25px;
+    
+}
+
+#step4
+{
+   
+    height: 900px;
+    width: 80%;
+    background-color: rgb(38, 172, 212);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#step4-box
+{
+    height: 80%;
+    width: 90%;
+    
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid #73AD;
+   border-radius: 25px;
+    
 }

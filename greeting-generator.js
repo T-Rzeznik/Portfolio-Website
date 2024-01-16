@@ -2,7 +2,7 @@
 
 const verbs = ['Greetings ', 'Hello ', 'Goodbye', 'Hi ', 'Howdy ', 'Heya ' , ''  ];
 const saying = ['whats up ', 'how have you been ' , 'how is your day ', 'nice to meet you ', 'im busy right now '   ]
-const names = ['Joe' , 'Mark' , 'Jamar' , 'Chrisler' , 'mom' , 'Dad' , 'Henry' , 'Mia']
+const names = ['Joe' , 'Mark' , 'Jamar' , 'Chrisler' , 'mom' , 'Dad' , 'Henry' , 'Mia', 'Jack' , 'Zack']
 
 function randomVerb(array)
 {

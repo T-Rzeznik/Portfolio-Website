@@ -1,0 +1,123 @@
+<html lang="en">
+
+<head>
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+
+    <header>
+        <container id="heading-box">
+    
+        <h1>Tic Tac Toe Python Game</h1>
+    
+        </container>
+    
+    </header>
+
+
+<section id="summary">
+    <container id="summary-box">
+        <p>
+            The purpose of this program is to implement a multiplayer (local) game of Tic Tac Toe.
+        </p>
+        <p>
+            It functions by taking alternating turns, asking the player where they want to play on thier turn, positions (1-9)
+        </p>
+
+    </container>
+</section>
+
+
+    <section id="step1">
+    
+        <container id="step1-box">
+            <h2>Step 1</h2>
+            <p>
+                The first step to implementing this Tic Tac Toe Game, was to create the board so that you can play the game and input where you want to play.
+                I did this by creating a 2d array as a 3x3 matrix.
+            </p>
+            <img src="pictures/board.PNG" alt="3x3 matrix" width="150" height="150">
+
+            <p>
+                I then had to add a way to draw the board so that it would look like the game we all know, which I took care of using this function.
+            </p>
+            <img src="pictures/draw_board.PNG" alt="draw board function" width="400" height="300">
+        </container>
+    
+    </section>
+
+    <section id="step2">
+    
+        <container id="step2-box">
+            <h2>Step 2</h2>
+            <p>
+                The next step is to understand where the player wishes to play when it is their turn. This was taken care of by this function get_loc(). This function promts the user where they wish to play and saves
+                saves that value for later use. Also handing edge cases.
+            </p>
+            <img src="pictures/get_location.PNG" alt="get location function" width="650" height="800">
+            <p>
+                Note: this function uses 2 varaibles which are initialized in the begining of the code. 
+                We have turn_counter = 0 to keep track of how many turns are played. Also numbers which is a list that keeps track of the positions on the board that have already been played on. The game decides on whos
+                turn it is "X" or "O" based on the turn_count.
+            </p>
+                
+            <img src="pictures/update_board.PNG" alt="update function" width="300" height="200">
+
+            <p>
+                Now that we have found where the user wants to play, and updated the board, we must now call draw_board() again so that the user can see the updated game board!
+            </p>
+
+        </container>
+    
+    </section>
+
+    <section id="step3">
+    
+        <container id="step3-box">
+            <h2>Step 3</h2>
+            
+            <p> 
+                One of the last steps within the game are checking if the player has won! For this I used 3 functions.
+            </p>
+
+            <img src="pictures/check.PNG" alt="3x3 matrix" width="600" height="400">
+            <p>
+                For the horizontal and verital checks they are a little more complicated than the diagonal. For these two we loop through each row/column searching if we have a winner. We use the match() function to 
+                check if all 3 in the row/column are the same as seen below.
+                As for the diagonal positions, there is only 2 possible scenarios so we can check them directly.
+            </p>
+
+            <img src="pictures/match.PNG" alt="match function" width="200" height="75">
+        </container>
+    
+    </section>
+
+
+
+    <section id="step4">
+    
+        <container id="step4-box">
+            <h2>Step 4</h2>
+            
+            <p> 
+                The fourth and Final step puts it all together using the run_game() function and our main() function
+            </p>
+
+            <img src="pictures/step_4.PNG" alt="run_game function" width="600" height="400">
+            <p>
+                As You see the run_game() function puts all of the previous functions to use, using a loop for each round the game is played. Again the game heavily relies on the turn_counter as the winner is decided 
+                based on what turn it is during at the end of the game. 
+            </p>
+
+            <img src="pictures/reset.PNG" alt="reset function" width="300" height="200">
+            <p>
+                The last important piece to this game is the reset function. This function effectively resets the game so that you can play the game multiple times without having to restart the program.
+            </p>
+
+        </container>
+    
+    </section>
+
+</body>
