@@ -145,7 +145,7 @@ header{
 
 #step4-box
 {
-    height: 80%;
+    height: 83%;
     width: 90%;
     
     display: flex;
@@ -157,4 +157,9 @@ header{
     border: 2px solid #73AD;
    border-radius: 25px;
     
+}
+
+p{
+    width: 80%;
+    text-align: center;
 }
